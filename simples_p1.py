@@ -13,7 +13,7 @@ def soma_posicao(lst: list, x: int, y: int) -> None:
     if ((x < 0) or (x > 9)) or ((y < 0) or (y > 9)):
         return None
 
-    # retorna a soma dos indices
+    # imprime a soma dos indices
     print(f"Soma={lst[x] + lst[y]}")
 
 
@@ -30,6 +30,6 @@ soma_posicao(lst_valores, x, y)
 # Outros casos de teste
 if __name__ == "__main__":
     lst = [13, 5, 7, 6, 4, 8, 16, 31, 9, 21]
-    print(soma_posicao(lst, 4, 7))
-    print(soma_posicao(lst, -1, 9))
-    print(soma_posicao(lst, 3, 15))
+    soma_posicao(lst, 4, 7)
+    soma_posicao(lst, -1, 9)
+    soma_posicao(lst, 3, 15)
