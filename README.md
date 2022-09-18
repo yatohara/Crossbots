@@ -16,7 +16,7 @@ códigos do processo seletivo
   Dentro da função, optei por fazer uma list comprehension para achar os divisores do número, que serão aqueles que estão entre 1 até metade inteira do número (coloquei o +1 por precaução) com o resto da divisão igual a zero. Esses valores são automaticamente adicionados na lista, então eu apliquei a função sum() para somar todos os valores dessa lista caso essa soma seja igual ao número significa que ele é perfeito, retornando True, do contrário retorna False
 
 #### simples_p3:
-  Creio que o código não seja o mais eficiente, porém na iteração para veficar se o número é primo há uma variavel de controle, em que a cada divisor do número ela é incrementada em 1, no final do loop é verificada se o seu valor é igual a 1, indicando que o divisor do número é só ele mesmo, implicando que ele seja um número primo.
+  Creio que o código não seja o mais eficiente, porém na iteração para veficar se o número é primo há uma variavel de controle, em que a cada divisor do número ela é incrementada em 1, no final do loop é verificada se o seu valor é igual a 1, indicando que o divisor do número é só o 1, implicando que ele seja um número primo.
   
 #### simples_p4:
   Decidi usar a função count() para reduzir a quantidade de linhas do código e não precisar criar uma variavel e iterar sobre a string contando quantas vezes a letra passada aparece
